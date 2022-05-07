@@ -25,6 +25,8 @@ int sleep(int);
 int uptime(void);
 
 // ulib.c
+void trace(int);
+void tarce(int);
 int stat(const char*, struct stat*);
 char* strcpy(char*, const char*);
 void *memmove(void*, const void*, int);
